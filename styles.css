@@ -37,19 +37,6 @@ body {
   align-items: center;
   position: relative;
 }
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("src/images/temp.jpg");
-  background-size: cover;
-  filter: blur(0.5vw);
-  overflow: hidden;
-  z-index: -1;
-}
 #bioContainer {
   background-color: #313244b0;
   width: 50vw;
